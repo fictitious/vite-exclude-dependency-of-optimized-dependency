@@ -1,0 +1,13 @@
+
+<div>module instance count is <span class="test-excluded"></span></div>
+
+<script type="module">
+
+import {testExcluded} from 'test-package-e';
+
+setText('.test-excluded', testExcluded());
+
+function setText(el, text) {
+    document.querySelector(el).textContent = text
+}
+</script>

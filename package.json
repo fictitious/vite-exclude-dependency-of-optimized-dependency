@@ -1,0 +1,15 @@
+{
+    "name": "vite-exclude-dependency-of-optimized-dependency",
+    "private": true,
+    "version": "0.1.0",
+    "devDependencies": {
+        "vite": "^2.6.10",
+        "yarn": "^1.22.15"
+    },
+    "workspaces": [
+        "test-package-e",
+        "test-package-e/test-package-e-included",
+        "test-package-e/test-package-e-excluded"
+    ],
+    "packageManager": "yarn@3.0.2"
+}
